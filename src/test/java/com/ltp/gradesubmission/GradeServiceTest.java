@@ -90,10 +90,10 @@ public class GradeServiceTest
 
         grade.setScore("A-");
         gradeService.submitGrade(grade);
-        verify(gradeRepository, times(1)).updateGrade(0, grade) ;
+        verify(gradeRepository, times(1)).updateGrade(0, grade);
     }
 
-} 
+}
 
 
 
